@@ -12,10 +12,9 @@ function callMe() {
 function crazy() {
   var thisIsCrazy = function (){
     console.log("hey!!!")
-    thisIsCrazy();
   }
   // fix the code in here:
-  //thisIsCrazy();
+  thisIsCrazy();
 }
 
 
