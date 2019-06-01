@@ -1,3 +1,4 @@
+callme();
 function callMe() {
   var lyric = "maybe";
   console.log("I just met you...");
@@ -6,7 +7,7 @@ function callMe() {
   console.log("so call me");
   return lyric;
 }
-callme();
+
 
 function crazy() {
   var thisIsCrazy = function (){
